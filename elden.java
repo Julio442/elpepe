@@ -15,6 +15,15 @@ public class elden extends quierodinero{
 	public String ToString() {
 		return super.ToString()+"\t"+Base+"\t"+Altura;
 	}
+	
+	public int CalcularArea() {
+		return Base * Altura /2;
+	}
+	public int CalcularPerimetro() {
+		return Base * 3;
+	}
+	public void Dibujar() {}
+	
 
 	public int getBase() {
 		return Base;
@@ -31,6 +40,7 @@ public class elden extends quierodinero{
 	public void setAltura(int altura) {
 		Altura = altura;
 	}
+
 	
 
 }

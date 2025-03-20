@@ -1,6 +1,6 @@
 package elpepe;
 
-public class quierodinero{
+public abstract class quierodinero{
 	
 	private String Nombre;
 	private char Relleno;

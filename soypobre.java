@@ -21,8 +21,14 @@ public class soypobre extends quierodinero{
 		return Lado * 4;
 	}
 	public void Dibujar() {
-		
-	}
+		char Re=super.getRelleno();
+		for (int R=1;R<=Lado;R++) {
+		for(int C=1;C<=Lado;C++) {
+			System.out.print(Re+"");
+		}
+		System.out.println();
+		}
+	}	
 
 	public int getLado() {
 		return Lado;
